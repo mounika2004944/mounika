@@ -42,5 +42,82 @@
         }
         .about p, .skills ul, .projects ul {
             font-size: 1.1em;
-      
-b
+            line-height: 1.6;
+            color: #555;
+        }
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills li, .projects li {
+            margin-bottom: 10px;
+        }
+        .contact p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>John Doe - BTech CSE Student</h1>
+    <p>Computer Science Engineering | Web Development | Machine Learning Enthusiast</p>
+</header>
+
+<section class="container">
+    <div class="about">
+        <h2 class="section-title">About Me</h2>
+        <p>Hi, I'm John Doe, a Computer Science Engineering student currently pursuing my BTech degree. I'm passionate about programming, web development, and solving complex problems. I have experience with various programming languages and technologies and am always eager to learn new things.</p>
+    </div>
+
+    <div class="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++, JavaScript</li>
+            <li>Web Development: HTML, CSS, JavaScript, React</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Machine Learning: TensorFlow, Scikit-learn</li>
+            <li>Operating Systems: Linux, Windows</li>
+        </ul>
+    </div>
+
+    <div class="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+            <li><strong>Portfolio Website</strong> - A personal website showcasing my skills and projects. Built with HTML, CSS, and JavaScript.</li>
+            <li><strong>Weather App</strong> - A weather forecasting web application using React.js and OpenWeather API.</li>
+            <li><strong>Face Recognition System</strong> - A machine learning project using Python, OpenCV, and TensorFlow to identify faces in images.</li>
+            <li><strong>Library Management System</strong> - A C++ based console application for managing books, students, and transactions in a library.</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or check out my LinkedIn profile.</p>
+        <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe/" target="_blank">linkedin.com/in/johndoe</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
